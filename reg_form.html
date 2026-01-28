@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+
+    <!-- Name -->
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <!-- Contact Number -->
+    <label>Contact Number:</label><br>
+    <input type="tel" name="contact"><br><br>
+
+    <!-- Gender -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <textarea name="address" rows="3"></textarea><br><br>
+
+    <!-- Hobbies -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="Singing"> Singing
+    <input type="checkbox" name="hobby" value="Travelling"> Travelling
+    <input type="checkbox" name="hobby" value="Reading"> Reading Books<br><br>
+
+    <!-- Skillset -->
+    <label>Skillset:</label><br>
+    <input type="checkbox" name="skill" value="C"> C
+    <input type="checkbox" name="skill" value="Python"> Python
+    <input type="checkbox" name="skill" value="Java"> Java<br><br>
+
+    <!-- Highest Qualification -->
+    <label>Highest Qualification:</label><br>
+    <select name="qualification">
+        <option value="">Select</option>
+        <option value="High School">High School</option>
+        <option value="Diploma">Diploma</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Postgraduate">Postgraduate</option>
+    </select><br><br>
+
+    <!-- District Dropdown -->
+    <label>District:</label><br>
+    <select name="district">
+        <option value="">Select District</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Salem">Salem</option>
+    </select><br><br>
+
+    <!-- Buttons -->
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
+
